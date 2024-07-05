@@ -1,0 +1,28 @@
+{
+  "name": "vue-code-block-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.2",
+    "@wdns/vue-code-block": "^2.3.2",
+    "gulp": "^5.0.0",
+    "highlight.js": "^11.9.0",
+    "highlightjs-copy-ts": "^1.0.6",
+    "json-to-ts": "^2.1.0",
+    "vue": "^3.4.21",
+    "vue-clipboard3": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
